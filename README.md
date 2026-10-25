@@ -7,3 +7,4 @@
 - style.css 見た目の設定
 
 ## 公開URL
+https://toshio-kirara.github.io/my-website/
