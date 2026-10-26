@@ -9,13 +9,13 @@
 <body>
 
 「機械仕掛けのOLたちの仲野良の良い1日」（仮） 
-
+<br>
 ローカルポートの衝突を解消して無事にDockerコンテナが立ち上がった後、わたしは宮津さんに、最初の課題として「請求書発行日と締日を判定する小さなヘルパー関数」の実装をお願いしてみることにした。<br>
 <br>
 彼女は「はい、頑張ります！」と元気よく頷き、エディタに向き直ってキーボードを叩き始めた。キーストロークは正確で、驚くほど速い。さすがは北米の最新ファームウェアを積んだ固体電池世代だ。処理速度自体は申し分ない。<br>
 <br>
 けれど、画面のコードを覗き込んだわたしの視線は、ある一行でピタリと止まった。<br>
-Go<br>
+<br>
 <br>
 func calcPaymentSchedule(kinyuDate time.Time) (time.Time, error) {<br>
 var gojitsuFlag bool<br>
@@ -156,7 +156,7 @@ feature/showa-invoice-fix<br>
 Go<br>
 <br>
 // 請求日・支払期日算出ヘルパーの共通化<br>
-func CalculateBillingCycle(targetDate time.Time) (time.Time, error) {<br>
+func CalculateBillingCycle(targetDate time.Time) (time.Time, error) <br>
 // 締め処理の自動前倒し判定ロジック<br>
 // ...<br>
 <br>
@@ -335,7 +335,7 @@ Co-op実習の二週目に入り、環境構築を終えた宮津さんに課さ
 Go<br>
 <br>
 // 労働時間・シフト配分最適化<br>
-func ValidateShiftAllocation(staff StaffProfile, shift ShiftSchedule) error {<br>
+func ValidateShiftAllocation(staff StaffProfile, shift ShiftSchedule) error <br>
 // 召集免除フラグの確認<br>
 if staff.IsSpecialDutyExempt {<br>
 return errors.New("error: 召集猶予対象者に対する夜勤割当不可")<br>
@@ -402,4 +402,5 @@ return errors.New("error: 週番勤務後の休養規定違反")<br>
 昭和の亡霊と、令和の津波の記憶。<br>
 二つの古い魂が、二〇六〇年代の高層ビルの一角で、現代のシステムを支える確かな一行を紡いでいた。<br>
 
-</body> </html>
+</body> 
+</html>
